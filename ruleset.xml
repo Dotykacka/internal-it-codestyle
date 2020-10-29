@@ -13,9 +13,6 @@
 	<arg value="p"/>
 	<arg value="n"/>
 
-	<file>app</file>
-
-
 	<config name="installed_paths" value="vendor/slevomat/coding-standard"/><!-- relative path from PHPCS source location -->
 
 

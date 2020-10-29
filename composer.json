@@ -4,20 +4,11 @@
 	"type": "library",
 	"require": {
 		"php": ">= 7.3",
-		"roave/security-advisories": "@dev"
-	},
-	"require-dev": {
-		"nette/tester": "^2.3",
-		"slevomat/coding-standard": "6.0.5",
-		"phpstan/phpstan": "^0.12.4",
-		"phpstan/phpstan-strict-rules": "^0.12.1",
-		"jakub-onderka/php-parallel-lint": "^1.0",
-		"phpstan/phpstan-nette": "^0.12.6",
-		"mockery/mockery": "^1.4",
-		"dg/bypass-finals": "^1.2"
+		"roave/security-advisories": "@dev",
+		"slevomat/coding-standard": "6.0.5"
 	},
 	"scripts": {
 		"phpcs:73": "mkdir -p temp/phpcs && php vendor/bin/phpcs --standard=ruleset.73.xml",
-		"ci:phpcbf": "mkdir -p temp/phpcs && php vendor/bin/phpcbf --standard=ruleset.xml || true",
+		"phpcs": "mkdir -p temp/phpcs && php vendor/bin/phpcbf --standard=ruleset.xml || true"
 	}
 }

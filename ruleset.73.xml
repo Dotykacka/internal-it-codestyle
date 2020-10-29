@@ -7,7 +7,7 @@
 
 	<ini name="memory_limit" value="64M"/>
 
-	<arg name="cache" value="./temp/phpcs"/>
+<!--	<arg name="cache" value="./temp/phpcs"/>-->
 	<arg name="colors"/>
 	<arg value="s"/>
 	<arg value="p"/>

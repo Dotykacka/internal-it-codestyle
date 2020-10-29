@@ -2,13 +2,24 @@
 	"name": "dotykacka/code-style",
 	"description": "Dotykacka Code style",
 	"type": "library",
+	"authors": [
+		{
+			"name": "Dotykacka Internal IT",
+			"email": "it@dotykacka.cz"
+		},
+		{
+			"name": "Lukáš Klíma",
+			"email": "lukas@klima.dev"
+		}
+	],
+	"license": "MIT",
 	"require": {
 		"php": ">= 7.3",
 		"roave/security-advisories": "@dev",
 		"slevomat/coding-standard": "6.0.5"
 	},
 	"scripts": {
-		"phpcs:73": "mkdir -p temp/phpcs && php vendor/bin/phpcs --standard=ruleset.73.xml",
-		"phpcs": "mkdir -p temp/phpcs && php vendor/bin/phpcbf --standard=ruleset.xml || true"
+		"phpcs:73": "php vendor/bin/phpcs --standard=ruleset.73.xml",
+		"phpcs": "php vendor/bin/phpcbf --standard=ruleset.xml || true"
 	}
 }

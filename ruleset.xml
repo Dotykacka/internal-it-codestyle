@@ -358,7 +358,6 @@
 
 
 	<rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator"/>
-	<rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
 	<rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses"/>
 	<rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses"/>
 
@@ -424,6 +423,7 @@
 		<exclude name="SlevomatCodingStandard.ControlStructures.DisallowShortTernaryOperator.DisallowedShortTernaryOperator"/>
 
 		<!-- -->
+		<exclude name="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
 
 		<exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit"/>
 		<exclude name="SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn"/>

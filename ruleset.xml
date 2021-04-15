@@ -5,7 +5,7 @@
 	<arg name="extensions" value="php"/>
 	<arg name="encoding" value="utf-8"/>
 
-	<ini name="memory_limit" value="64M"/>
+	<ini name="memory_limit" value="-1"/>
 
 <!--	<arg name="cache" value="./temp/phpcs/cache.json"/>-->
 	<arg name="colors"/>

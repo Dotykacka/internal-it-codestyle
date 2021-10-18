@@ -479,14 +479,17 @@
 		</properties>
 	</rule>
 
+	<rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration"/>
+	<rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall"/>
+
 
 	<!-- TODO excludes -->
 	<rule ref="SlevomatCodingStandard">
 		<!-- docasne disabled, kvuli zavadeni -->
 		<exclude name="SlevomatCodingStandard.Classes.ClassMemberSpacing.IncorrectCountOfBlankLinesBetweenMembers"/>
 		<exclude name="SlevomatCodingStandard.Classes.TraitUseSpacing.IncorrectLinesCountAfterLastUse"/>
-		<exclude name="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration"/>
-		<exclude name="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall"/>
+		<!--		<exclude name="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration"/>-->
+		<!--		<exclude name="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall"/>-->
 		<exclude name="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode"/>
 		<exclude name="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable.DisallowedSuperGlobalVariable"/>
 		<exclude name="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature"/>

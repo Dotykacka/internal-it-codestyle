@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <ruleset name="Dotykacka">
 
 	<arg name="tab-width" value="4"/>
@@ -69,7 +68,7 @@
 		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition"/>
-	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowEmpty"></rule>
+	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowEmpty"/>
 	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch"/>
 	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
 	<rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
@@ -152,7 +151,7 @@
 			<property name="caseSensitive" type="bool" value="false"/>
 		</properties>
 	</rule>
-	<rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"></rule>
+	<rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
 
 	<rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
 		<properties>
@@ -565,6 +564,7 @@
 		<exclude name="SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion"/>
 		<exclude name="SlevomatCodingStandard.ControlStructures.DisallowNullSafeObjectOperator"/>
 		<exclude name="SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration.MissingDescription"/>
+		<exclude name="SlevomatCodingStandard.Functions.DisallowNamedArguments.DisallowedNamedArgument"/>
 
 		<!-- Superflous Ignores -->
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming"/>

@@ -20,6 +20,6 @@
 	},
 	"scripts": {
 		"phpcs:73": "php vendor/bin/phpcs --standard=ruleset.73.xml",
-		"phpcs": "php vendor/bin/phpcbf --standard=ruleset.xml || true"
+		"phpcs": "php -d memory_limit=-1 vendor/bin/phpcs --standard=ruleset.xml ../is/app --cache=cache.json"
 	}
 }

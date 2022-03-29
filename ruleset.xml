@@ -386,8 +386,6 @@
 
 	<rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints"/>
 
-	<rule ref="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint"/>
-
 
 	<rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
 	<rule ref="SlevomatCodingStandard.PHP.UselessParentheses"/>
@@ -572,5 +570,7 @@
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming"/>
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming"/>
+
+		<exclude name="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint"/>
 	</rule>
 </ruleset>

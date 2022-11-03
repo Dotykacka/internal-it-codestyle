@@ -572,5 +572,8 @@
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming"/>
 
 		<exclude name="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint"/>
+		
+		<exclude name="SlevomatCodingStandard.Exceptions.DisallowNonCapturingCatch"/>
+		<exclude name="SlevomatCodingStandard.Classes.RequireAbstractOrFinal"/>
 	</rule>
 </ruleset>
